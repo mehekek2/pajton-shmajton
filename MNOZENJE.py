@@ -30,7 +30,7 @@ print("TRANSPONIRANA")
 for i in range(len(X)):
    # iterate through columns
    for j in range(len(X[0])):
-       result[j][i] = X[i][j]
+       result2[j][i] = X[i][j]
 print(" ")
-for r in result:
+for r in result2:
    print(r)
